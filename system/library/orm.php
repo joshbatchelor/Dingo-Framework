@@ -117,7 +117,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function column()
 	{
-		$this->_orm_query_method('column',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('column', $args);
 		return $this;
 	}
 	
@@ -126,7 +127,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function join()
 	{
-		$this->_orm_query_method('join',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('join', $args);
 		return $this;
 	}
 	
@@ -135,7 +137,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function where()
 	{
-		$this->_orm_query_method('where',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('where', $args);
 		return $this;
 	}
 	
@@ -144,7 +147,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function on()
 	{
-		$this->_orm_query_method('on',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('on', $args);
 		return $this;
 	}
 	
@@ -153,7 +157,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function clause()
 	{
-		$this->_orm_query_method('clause',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('clause', $args);
 		return $this;
 	}
 	
@@ -162,7 +167,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function order_by()
 	{
-		$this->_orm_query_method('order_by',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('order_by', $args);
 		return $this;
 	}
 	
@@ -171,7 +177,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function limit()
 	{
-		$this->_orm_query_method('limit',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('limit', $args);
 		return $this;
 	}
 	
@@ -180,7 +187,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function offset()
 	{
-		$this->_orm_query_method('offset',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('offset', $args);
 		return $this;
 	}
 	
@@ -198,7 +206,8 @@ class orm
 	// ---------------------------------------------------------------------------
 	public function combine()
 	{
-		$this->_orm_query_method('combine',func_get_args());
+		$args = func_get_args();
+		$this->_orm_query_method('combine', $args);
 		return $this;
 	}
 	
